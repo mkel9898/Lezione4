@@ -1,0 +1,25 @@
+Comunicazione layer 2 - 3 modello OSI
+
+HOP 1 = Source Mac : Laptop-PT 192.168.100.100
+        Destination Mac : Interfaccia Switch0
+
+HOP 2 = Source Mac : Interfaccia Switch0
+        Destination Mac : Router 0
+
+HOP 3 = Source Mac : Router 0
+        Destination Mac : Interfaccia Switch1
+
+HOP 4 = Source Mac : Interfaccia Switch1
+        Destination Mac : Laptop-PT 192.168.200.100
+
+HOP 5 = Source Mac : Laptop-PT 192.168.200.100
+        Destination Mac : Interfaccia Switch1
+
+HOP 5 = Source Mac : Interfaccia Switch1
+        Destination Mac : Router 0
+
+HOP 6 = Source Mac : Router 0
+        Destination Mac : Interfaccia Switch0
+
+HOP 7 = Source Mac : Interfaccia Switch0
+        Destination Mac : Laptop-PT 192.168.100.100
